@@ -554,23 +554,16 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
 .block {
   display: block;
 }
 
-=======
->>>>>>> dc7fb5d92af9e556ce3ea8b1e09948414bbebba3
 .flex {
   display: flex;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-80 {
-  height: 20rem;
+.hidden {
+  display: none;
 }
 
 .h-64 {
@@ -589,21 +582,37 @@ video {
   width: 24rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-start {
   align-items: flex-start;
->>>>>>> dc7fb5d92af9e556ce3ea8b1e09948414bbebba3
 }
 
 .items-center {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-\[\#cc9900\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 153 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-black {
@@ -614,15 +623,31 @@ video {
 .bg-slate-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
->>>>>>> dc7fb5d92af9e556ce3ea8b1e09948414bbebba3
 }
 
-.p-5 {
-  padding: 1.25rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.text-center {
-  text-align: center;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-3xl {
@@ -630,19 +655,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-xl {
@@ -658,12 +673,17 @@ video {
   font-weight: 300;
 }
 
+.text-\[\#cc9900\] {
+  --tw-text-opacity: 1;
+  color: rgb(204 153 0 / var(--tw-text-opacity, 1));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-.text-yellow-500 {
+.text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
@@ -671,20 +691,13 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity, 1));
->>>>>>> dc7fb5d92af9e556ce3ea8b1e09948414bbebba3
 }
 
 .text-yellow-500 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-<<<<<<< HEAD
 .hover\:bg-\[\#cc9900\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(204 153 0 / var(--tw-bg-opacity, 1));
@@ -710,6 +723,4 @@ video {
   }
 }
 
-=======
->>>>>>> dc7fb5d92af9e556ce3ea8b1e09948414bbebba3
 
